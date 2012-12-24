@@ -59,7 +59,7 @@ endif
 ifeq "" "$(PLATFORM_VERSION_CODENAME)"
   # This is the current development code-name, if the build is not a final
   # release build.  If this is a final release build, it is simply "REL".
-  PLATFORM_VERSION_CODENAME := AOSP
+  PLATFORM_VERSION_CODENAME := REL
 endif
 
 ifeq "" "$(DEFAULT_APP_TARGET_SDK)"
@@ -81,7 +81,7 @@ ifeq "" "$(BUILD_ID)"
   # word and a valid file name.
   #
   # If there is no BUILD_ID set, make it obvious.
-  BUILD_ID := UNKNOWN
+  BUILD_ID := JOP40D
 endif
 
 ifeq "" "$(BUILD_NUMBER)"
