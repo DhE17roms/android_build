@@ -420,10 +420,10 @@ function add_lunch_combo()
 }
 
 # add the default one here
-add_lunch_combo full-eng
-add_lunch_combo full_x86-eng
-add_lunch_combo vbox_x86-eng
-add_lunch_combo full_mips-eng
+# add_lunch_combo full-eng
+# add_lunch_combo full_x86-eng
+# add_lunch_combo vbox_x86-eng
+# add_lunch_combo full_mips-eng
 
 function print_lunch_menu()
 {
@@ -431,7 +431,7 @@ function print_lunch_menu()
     echo
     echo "You're building on" $uname
     echo
-    echo "Lunch menu... pick a combo:"
+    echo "Lunch menu... pick a Nexus:"
 
     local i=1
     local choice
