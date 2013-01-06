@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
     DefaultContainerService \
     DownloadProvider \
     DownloadProviderUi \
+    Email \
     HTMLViewer \
     Home \
     KeyChain \
